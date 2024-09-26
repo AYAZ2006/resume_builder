@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Resume Builder</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Resume Builder By AYAZ</h1>
+    <div class="section">
+      <h2>Personal Information</h2>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name"><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone"><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email"><br>
+
+      <label for="address">Address:</label>
+      <input type="text" id="address"><br>
+
+      <label for="role">Role:</label>
+      <input type="text" id="role"><br>
+    </div>
+    <div class="section">
+      <h2>Resume Details</h2>
+      <label for="experience">Experience:</label>
+      <textarea id="experience"></textarea><br>
+
+      <label for="education">Education:</label>
+      <textarea id="education"></textarea><br>
+
+      <label for="projects">Projects:</label>
+      <textarea id="projects"></textarea><br>
+
+      <label for="achievements">Achievements:</label>
+      <textarea id="achievements"></textarea><br>
+
+      <label for="skills">Skills:</label>
+      <textarea id="skills"></textarea><br>
+
+      <label for="courses">Courses:</label>
+      <textarea id="courses"></textarea><br>
+
+      <label for="strengths">Strengths:</label>
+      <textarea id="strengths"></textarea><br>
+
+      <label for="languages">Languages Known:</label>
+      <textarea id="languages"></textarea><br>
+    </div>
+    <button onclick="resume()">Generate Resume</button>
+    <div class="output">
+      <div id="resumeDisplay"></div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
